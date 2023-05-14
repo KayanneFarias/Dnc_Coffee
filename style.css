@@ -1,0 +1,46 @@
+article.card{
+    transition: 0.1s ease-in-out;
+    
+}
+
+
+.card-text{
+    height: 83px;
+    overflow: hidden;
+}
+
+.card-group{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+
+.card:hover {
+  transform: scale(1.05);
+  cursor: pointer; 
+}
+
+
+a.btn{
+    background-color: #2A3342;
+    width: 140px;
+    margin-bottom: 10px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.atendimento{
+    text-align: center;
+    font-weight: 300;
+}
+
+.btn-atend{
+    background-color: #2A3342;
+    color: #F6F5FB;
+    border-radius: 5px;
+    border: none;
+    padding: 0.25rem;
+}
